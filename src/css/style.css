@@ -133,10 +133,11 @@ input {
 .conversas {
     display: flex;
     padding: 15px;
+    margin-bottom: -20px;
 }
 
 .conversas .imagem img {
-    margin: 0 20px;
+    margin: 0 10px;
     width: 49px;
     height: 49px;
     border-radius: 50px;
@@ -149,8 +150,11 @@ input {
 
 .conversas .texto {
     border-top: 1px solid #202c33;
-    margin: 0 15px;
+    margin-left: 15px;
     padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .conversas .dados {
@@ -167,4 +171,53 @@ input {
 .conversas .dados .mensagem {
     font-size: 14px;
     font-weight: 400;    
+    color: #8996a0
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.infos img{
+    width: 13px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.infos span{
+    color: #e9edef;;
+}
+
+.dados .mensagem2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco2 span {
+    background-color: #00a884;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 100px;
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.infos .different {
+    color: #00a884;
 }
