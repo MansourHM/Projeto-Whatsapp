@@ -1,45 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(1) WhatsApp</title>
-    <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" href="/src/css/style.css">
 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-
+    
     <div class="container">
-
+        
         <section class="icones">
-            <div class="icon1">
-                <div class="div-icon"><img src="/src/img/chats-filled.svg" alt=""></div>
-                <div class="div-icon"><img src="/src/img/status-outline.svg" alt=""></div>
-                <div class="div-icon"><img src="/src/img/newsletter-outline.svg" alt=""></div>
-                <div class="div-icon"><img src="/src/img/community-outline.svg" alt=""></div>
-            </div>
+
             
-            <div class="icon2">
-                <div class="div-icon"><img src="/src/img/settings-outline.svg" alt=""></div>
-                <div class="div-icon"><img class="profile" src="/src/img/profile.png" alt=""></div>
+            <div class="icon-1">
+                <div class="div-icon"><img src="img/chats-filled.svg" alt="chat"></div>
+                <div class="div-icon"><img src="img/status-outline.svg" alt="Status"></div>
+                <div class="div-icon"><img src="img/newsletter-outline.svg" alt="Canais"></div>
+                <div class="div-icon"><img src="img/community-outline.svg" alt="Comunidades"></div>
+            </div>
+
+            <div class="icon-2">
+
+             <div class="div-icon"><img src="img/settings-outline.svg" alt="chat"></div>
+             <div class="div-icon"><img class="profile" src="/src/img/profile.png" alt="chat"></div>
+
             </div>
         </section>
 
-        <section class="chats">
-            <div class="header">
-                <p>Chats</p>
+            <section class="chats">
+                <div class="header">
+                    <p>Chats</p>
 
-                <div class="icons-chat">
-                    <img src="/src/img/new-chat-outline.svg" alt="">
-                    <img src="/src/img/menu.svg" alt="">
+
+                    <div class="icons-chats">
+                        <img src="img/new-chat-outline.svg" alt="">
+                        <img src="/src/img/menu.svg" alt="">
+
+                    </div>
+                </div>
+
+                <div class="pesquisa">
+                    <img src="/src/img/search.svg" alt="">
+                    <input type="text" placeholder="Pesquisar">
+                </div>
+
+                <div class="filtros">
+                    <a class="ativo" href="">Tudo</a>
+                    <a href="">Não Lidas</a>
+                    <a href="">Grupos</a>
 
                 </div>
 
-            </div>
-        </section>
-
+            </section>
     </div>
-    
+
 </body>
 </html>
